@@ -32,3 +32,13 @@ else if (choixOrdi==3){
 }
 
 
+const h1=document.querySelector("h1");
+const button=document.getElementById("but");
+const popup=document.querySelector(".popup");
+button.addEventListener("click", switchLePopup);
+
+function switchLePopup(){
+    popup.classList.toggle("closed")
+}
+
+
